@@ -218,10 +218,10 @@ export default function GamePage() {
             {/* <div style={{ position: "absolute" }}><BoardMap pin={pin} style={{ bottom: "0" }} /></div> */}
 
           </div>
-          <div className={styles.lower_container}>
-            <video className={styles.cam} ref={videoRef} /> {/* WEBCAM 화면 */}
-            <video className={styles.cam} style={{ float: 'right' }} ref={videoRef} /> {/* WEBCAM 화면 */}
-          </div>
+          {/* <div className={styles.lower_container}>
+            <video className={styles.cam} ref={videoRef} /> 
+            <video className={styles.cam} style={{ float: 'right' }} ref={videoRef} /> 
+          </div> */}
         </div>
         <>
           <ModalPage currentCell={currentCell} pin={pin} />
