@@ -8,12 +8,6 @@ canvas.deepar {
     max-height: 100%;
   }
   
-  body {
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-  }
-  
   #loading-screen,
   #permission-denied-screen,
   #permission-denied-background {
@@ -214,8 +208,8 @@ canvas.deepar {
     text-decoration: none;
     width: fit-content;
   
-    &:hover {
+    /* &:hover {
       background-color: #eaeaea;
-    }
+    } */
   }
   
